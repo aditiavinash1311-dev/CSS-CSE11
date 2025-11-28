@@ -1,0 +1,23 @@
+    .output {
+      border: 1px solid #999;
+      margin-top: 15px;
+      padding: 20px;
+      width: fit-content;
+    }
+
+    h1 {
+      background-color: #d7e7f7;
+      font-size: 2em;
+      font-weight: bold;
+      padding: 10px;
+      margin: 10px 0;
+      display: block;
+    }
+
+    .ws {
+      background-color: #cde7c4;
+      padding: 10px;
+      margin: 10px 0;
+      display: block;
+    }
+    
