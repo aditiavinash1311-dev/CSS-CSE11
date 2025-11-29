@@ -1,0 +1,36 @@
+.container{
+    display:flex;
+    height: 600px;
+    width: 1000px;
+    border: 1px solid black;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: radial-gradient(circle,#870ce5, #320dec);
+    /* justify-content: space-around; */
+    align-items: center;
+    gap: 10px;
+    row-gap: 10px;
+
+}
+
+/* order od child is 0 */
+
+.item{
+    height: 100px;
+    width: 200px;
+    border: 1px solid black;
+    text-align: center;
+    align-content: center;
+    background: radial-gradient(circle, #e5500c, #ecec0d);
+    flex-grow: 1;
+    align-items: center;
+    
+
+
+}
+
+.item2{
+ order: -1;
+ flex-grow: 2;
+ align-self: auto;
+}
