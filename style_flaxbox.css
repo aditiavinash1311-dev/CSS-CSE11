@@ -5,6 +5,7 @@
     border: 1px solid black;
     flex-direction: row;
     flex-wrap: wrap;
+    background-color: #320dec;
     background: radial-gradient(circle,#870ce5, #320dec);
     /* justify-content: space-around; */
     align-items: center;
@@ -24,9 +25,6 @@
     background: radial-gradient(circle, #e5500c, #ecec0d);
     flex-grow: 1;
     align-items: center;
-    
-
-
 }
 
 .item2{
