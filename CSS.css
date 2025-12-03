@@ -43,13 +43,18 @@
 
 .item2{
     grid-area: main;
-    
+    place-self: center;
+    justify-self:center;
 }
 
 .item3{
     grid-area: sidebar;
+    place-self: center;
+    justify-self:center;
 }
 
 .item4{
     grid-area: footer;
+    place-self: center;
+    justify-self:center;
 }
