@@ -3,38 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Selectors</title>
-    <link rel="stylesheet" href="./style.css">
-    <style>
-        h1{color:green;}
-
-    </style>
+    <title>Burger Menu</title>
 </head>
-<body>
-    <p style="color:blue;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum deserunt id maxime sit cum magni ad dolore ipsam exercitationem sequi suscipit architecto cumque quas nostrum deleniti earum, unde quidem? Debitis.</p>
-    <h1>HELLO WORLD</h1>
-    <h2>external</h2>
-<p class="pass">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, excepturi voluptas aperiam fugit harum possimus corporis mollitia nesciunt cupiditate, deleniti, veniam doloremque nisi pariatur aliquam quae ipsum animi molestias natus.</p>
+<body 
+    style="
+        margin:0; 
+        padding:0; 
+        height:100vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-family:Arial, sans-serif;
+    "
+>
 
-<p class="pass" id="od">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum vitae fugit, voluptatibus cumque, nihil ullam architecto temporibus suscipit quisquam expedita sed voluptatem earum sit quis eaque magnam dolore eum repellat quibusdam iusto? Architecto repellat dolore cupiditate, modi dolor sit minus pariatur laboriosam. Odit consectetur possimus aperiam voluptatibus, officiis corporis velit?</p>
-<!-- "element selector"
 
-    class selector 
-    can be used for many elements at once
-    selcts element with a specific class
-     
-    id selector
-    
-   1) you can assign to the one class to the multiple elements
-   2) or you can assign to the multiple classes to the single elements
-    -->
+    <div 
+        style="
+            width:350px;
+            background:#080808;
+            color:white;
+            padding:25px;
+            border-radius:12px;
+            box-shadow:0 0 15px rgba(33, 33, 33, 0.6);
+        "
+    >
 
-    <!-- color:color-name|rgb|rgba|hsl|hsla|hexadecimal
-     #RRGGBB -->
+        <h1 
+            style="
+                text-align:center;
+                color:yellow;
+                margin:0;
+                font-size:28px;
+            "
+        >BURGER</h1>
 
-     <!-- text-align: |right|center|justify|start|end|initial|inherit -->
+        <p style="text-align:center; margin-top:5px; font-size:18px;">Menu</p>
 
-     <!-- font size:em|rem|%|smaller and larger| -->
+
+        <div style="margin-top:20px;">
+
+            <p style="display:flex; justify-content:space-between; margin:8px 0;">
+                <span>CHICKEN BURGER</span>
+                <span>&#8377;110</span>
+            </p>
+
+            <p style="display:flex; justify-content:space-between; margin:8px 0;">
+                <span>DOUBLE CHEESE BURGER</span>
+                <span>&#8377;170</span>
+            </p>
+
+            <p style="display:flex; justify-content:space-between; margin:8px 0;">
+                <span>CHICKEN CHEESE BURGER</span>
+                <span>&#8377;140</span>
+            </p>
+
+            <p style="display:flex; justify-content:space-between; margin:8px 0;">
+                <span>DOUBLE PATTY BURGER</span>
+                <span>&#8377;210</span>
+            </p>
+
+            <p style="display:flex; justify-content:space-between; margin:8px 0;">
+                <span>PERI PERI CHICKEN BURGER</span>
+                <span>&#8377;135</span>
+            </p>
+
+        </div>
+
+
+        <div 
+            style="
+                background:yellow;
+                color:black;
+                padding:8px;
+                text-align:center;
+                margin:20px 0 15px;
+                border-radius:3px;
+                font-size:18px;
+            "
+        >COMBOS</div>
+
+
+        <div>
+
+            <p style="display:flex; justify-content:space-between; margin:8px 0;">
+                <span>C BURGER FRIES</span>
+                <span>&#8377;155</span>
+            </p>
+
+            <p style="display:flex; justify-content:space-between; margin:8px 0;">
+                <span>CHEESE B 184</span>
+                <span>&#8377;209</span>
+            </p>
+
+            <p style="display:flex; justify-content:space-between; margin:8px 0;">
+                <span>BIG (B) CHEESE</span>
+                <span>&#8377;270</span>
+            </p>
+
+            <p style="display:flex; justify-content:space-between; margin:8px 0;">
+                <span>BLAST B</span>
+                <span>&#8377;450</span>
+            </p>
+
+        </div>
+
+    </div>
+
 </body>
 </html>
-
